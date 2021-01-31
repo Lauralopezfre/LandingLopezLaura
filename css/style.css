@@ -1,0 +1,84 @@
+.centrar-texto {
+    text-align: center;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+}
+
+.contenedor-central {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.encabezado-principal {
+    background-image: url(../img/portada.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+}
+
+.barra-principal a {
+    color: white;
+    text-decoration: none;
+}
+
+.navegacion a {
+    text-align: center;
+    display: block;
+    line-height: 2;
+}
+
+.texto-img {
+    color: white;
+    text-align: center;
+}
+
+.barra-principal {
+    padding: 5px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width:768px) {
+    .navegacion a {
+        display: inline;
+        margin-left: 20px;
+    }
+    .barra-principal {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        justify-items: center;
+    }
+    .texto-img {
+        margin-top: 80px;
+    }
+    .nosotros {
+        display: grid;
+        grid-template-columns: 75% 25%;
+        column-gap: 2%;
+    }
+    .contacto {
+        background-image: url(../img/footeer.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 150px;
+    }
+}
